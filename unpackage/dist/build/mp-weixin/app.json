@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/selectFeature/index",
+    "pages/index/index",
+    "pages/about/index",
+    "pages/about/aboutImg/index",
+    "pages/mine/index",
+    "pages/history/index",
+    "pages/history/oneName/index",
+    "pages/history/share/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "backgroundColor": "#F8F8F8",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "Home",
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home_s.png"
+      },
+      {
+        "text": "History",
+        "pagePath": "pages/history/index",
+        "iconPath": "static/tabs/his.png",
+        "selectedIconPath": "static/tabs/his_s.png"
+      },
+      {
+        "text": "About",
+        "pagePath": "pages/about/index",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine_s.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

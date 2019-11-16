@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "内置组件",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/home/selectFeature/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"usingComponents":{
+					"van-col":"/wxcomponents/vant/col/index"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/about/aboutImg/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/history/oneName/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		// "color": "#7A7E83",
+		// "selectedColor": "#007AFF",
+		// "borderStyle": "white",
+		// "backgroundColor": "#F8F8F8",
+		"color": "#7A7E83",
+		"backgroundColor": "#F8F8F8",
+		"selectedColor": "#333",
+		"borderStyle": "white",
+	  "list": [{
+      "text": "Home",
+      "pagePath": "pages/home/index",
+      "iconPath": "static/tabs/home.png",
+			"selectedIconPath": "static/tabs/home_s.png"
+    }, {
+      "text": "History",
+      "pagePath": "pages/history/index",
+      "iconPath": "static/tabs/his.png",
+			"selectedIconPath": "static/tabs/his_s.png"
+    }, {
+      "text": "About",
+      "pagePath": "pages/about/index",
+      "iconPath": "static/tabs/mine.png",
+			"selectedIconPath": "static/tabs/mine_s.png"
+    }]
+	}
+}

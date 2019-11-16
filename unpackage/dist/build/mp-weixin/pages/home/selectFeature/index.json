@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "van-col": "/wxcomponents/vant/col/index"
+  }
+}

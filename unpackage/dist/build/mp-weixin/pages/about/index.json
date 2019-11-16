@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "stars": "/components/stars/index"
+  }
+}

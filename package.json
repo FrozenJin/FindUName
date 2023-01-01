@@ -10,11 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "less": "^3.10.3",
-    "less-loader": "^5.0.0",
+    "less-loader": "^11.1.0",
     "simple-canvas-posters": "^0.2.5",
     "vue-i18n": "^8.14.0"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "4.5.2"
+    "copy-webpack-plugin": "11.0.0"
   }
 }
